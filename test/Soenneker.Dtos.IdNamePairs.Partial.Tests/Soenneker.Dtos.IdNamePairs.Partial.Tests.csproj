@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Dtos.IdNamePairs.Partial.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Dtos.IdNamePairs.Partial\Soenneker.Dtos.IdNamePairs.Partial.csproj" />
     </ItemGroup>
 
     <ItemGroup>
