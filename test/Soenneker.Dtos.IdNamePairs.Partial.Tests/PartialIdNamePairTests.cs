@@ -1,11 +1,10 @@
-﻿using Soenneker.Tests.Unit;
-using Xunit;
+using Soenneker.Tests.Unit;
 
 namespace Soenneker.Dtos.IdNamePairs.Partial.Tests;
 
 public sealed class PartialIdNamePairTests : UnitTest
 {
-    [Fact]
+    [Test]
     public void Default()
     {
 
