@@ -10,10 +10,16 @@ namespace Soenneker.Dtos.IdNamePairs.Partial;
 [PublicOpenApiObject]
 public record PartialIdNamePair
 {
+    /// <summary>
+    /// Gets or sets id.
+    /// </summary>
     [JsonPropertyName("id")]
     [JsonProperty("id")]
     public string? Id { get; set; }
 
+    /// <summary>
+    /// Gets or sets name.
+    /// </summary>
     [JsonPropertyName("name")]
     [JsonProperty("name")]
     public string? Name { get; set; }
