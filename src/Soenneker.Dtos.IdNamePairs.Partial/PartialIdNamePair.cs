@@ -5,20 +5,20 @@ using Newtonsoft.Json;
 namespace Soenneker.Dtos.IdNamePairs.Partial;
 
 /// <summary>
-/// A flexible ID/name container where either field may be missing, used when either of them isn't guaranteed.
+/// Represents a partial resource reference in which an identifier, a display name, or both may be supplied.
 /// </summary>
 [PublicOpenApiObject]
 public record PartialIdNamePair
 {
     /// <summary>
-    /// Gets or sets id.
+    /// Stable resource identifier, when known.
     /// </summary>
     [JsonPropertyName("id")]
     [JsonProperty("id")]
     public string? Id { get; set; }
 
     /// <summary>
-    /// Gets or sets name.
+    /// Human-readable resource name, when known.
     /// </summary>
     [JsonPropertyName("name")]
     [JsonProperty("name")]
