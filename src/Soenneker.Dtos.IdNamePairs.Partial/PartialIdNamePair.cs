@@ -1,6 +1,5 @@
 ﻿using Soenneker.Attributes.PublicOpenApiObject;
 using System.Text.Json.Serialization;
-using Newtonsoft.Json;
 
 namespace Soenneker.Dtos.IdNamePairs.Partial;
 
@@ -14,13 +13,11 @@ public record PartialIdNamePair
     /// Stable resource identifier, when known.
     /// </summary>
     [JsonPropertyName("id")]
-    [JsonProperty("id")]
     public string? Id { get; set; }
 
     /// <summary>
     /// Human-readable resource name, when known.
     /// </summary>
     [JsonPropertyName("name")]
-    [JsonProperty("name")]
     public string? Name { get; set; }
 }

@@ -27,7 +27,7 @@ var complete = new PartialIdNamePair
 };
 ```
 
-Both System.Text.Json and Newtonsoft.Json use `id` and `name` as wire names. Whether null properties appear in JSON depends on the serializer’s null-handling configuration.
+System.Text.Json uses `id` and `name` as wire names. Whether null properties appear in JSON depends on the serializer’s null-handling configuration.
 
 The record permits both properties to be null. It does not require at least one value, resolve a name to an identifier, state which property takes precedence, or validate either value. Define those rules in the consuming request or service.
 
